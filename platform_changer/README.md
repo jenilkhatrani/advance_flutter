@@ -1,16 +1,18 @@
+
 App description 
 ## About
-this app is based on contact app like a save contact and call.
-you can save contact and call and sms saved contact
+ContactApp is a simple and intuitive application designed to manage your contacts efficiently.
+Whether you need to store personal contacts, business associates, or any other important connections, ContactApp provides a seamless experience to keep your information organized and easily accessible.
 
 ## Feactures
 
 The Android app lets you
-- Add contact
-- adjust themes(dark and light0
-- save contacts
-- call and message (saved contacts)
-- set own profile
+- Add New Contacts: Easily add new contacts with details like name, phone number, email.
+- Edit Contacts: Update or modify contact information as needed.
+- Delete Contacts: Remove contacts that are no longer needed.
+- Adjust theme : dark and light
+- interface change : use android and ios both in one app
+
 
 
 
