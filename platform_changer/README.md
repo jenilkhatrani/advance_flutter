@@ -1,3 +1,20 @@
+App description 
+## About
+this app is based on contact app like a save contact and call.
+you can save contact and call and sms saved contact
+
+## Feactures
+
+The Android app lets you
+- Add contact
+- adjust themes(dark and light0
+- save contacts
+- call and message (saved contacts)
+- set own profile
+
+
+
+## Screenshots
 <img src="https://github.com/user-attachments/assets/122f301c-1bc2-41d9-9c6b-2768541186d7" alt="App Screenshot" width="200" height="400"/>
 <img src="https://github.com/user-attachments/assets/e029d98f-dbdc-434a-8539-8544837abaf2" alt="App Screenshot" width="200" height="400"/>
 <img src="https://github.com/user-attachments/assets/de083e27-db14-43e1-85ca-39a7b225d5b7" alt="App Screenshot" width="200" height="400"/>
