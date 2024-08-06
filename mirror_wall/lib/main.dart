@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:mirror_wall/HomeScreen.dart';
+import 'package:mirror_wall/provider/connectivityProvider.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Myapp(),
-  ));
+  runApp(MultiProvider(
+   providers: [
+     ChangeNotifierProvider(create: (context) => ConnectivityProvider()),
+   ],
+child: Myapp(),
+  )
+  );
 }
 
 class Myapp extends StatefulWidget {
