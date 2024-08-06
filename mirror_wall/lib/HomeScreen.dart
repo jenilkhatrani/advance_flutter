@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:lottie/lottie.dart';
 import 'package:mirror_wall/provider/connectivityProvider.dart';
 import 'package:provider/provider.dart';
 
@@ -26,6 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
         inAppWebViewController.reload();
       },
     );
+
+    Provider.of<ConnectivityProvider>(context, listen: false).checkConnectivity();
   }
 
   void _updateNavigationState() async {
@@ -43,12 +46,23 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Column(
         children: [
           Expanded(
+
             flex: 17,
 
         child: (Provider.of<ConnectivityProvider>(context)
             .connecitivityModel
             .isInternet == false)?
-            const Center(child: Text('No internet connection available'),):
+             Center(child: Column(
+               mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+
+                Lottie.asset('assets/internet.json',height: 250),
+
+                Text('No internet connection available',style: TextStyle(
+                  fontSize: 18,fontWeight: FontWeight.bold,color: Colors.grey
+                ),),
+              ],
+            ),):
         InAppWebView(
               initialUrlRequest: URLRequest(
                 url: WebUri('https://www.google.com/'),
