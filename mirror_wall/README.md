@@ -1,5 +1,19 @@
 # mirror_wall
 
+##about
+this app is based on inappwebview widget in flutter. we used a many functions and method to create an app.
+this is tottaly online interet acceptable app.
+no any offline version people can easily and interactive app. it's very easy to use 
+
+##features 
+
+-search any questions 
+-add bookmarks
+-connect to the network
+-online app
+
+
+
 
 ##Screenshots
 
