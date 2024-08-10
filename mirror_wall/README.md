@@ -1,26 +1,26 @@
-# mirror_wall
+# Mirror_wall
 
-##about
+# About
 
-this app is based on inappwebview widget in flutter. we used a many functions and method to create an app.
-this is tottaly online interet acceptable app.
+This app is based on inappwebview widget in flutter. We used a many functions and method to create an app.
+This is tottaly online interet acceptable app.
 
 
-##features 
+# Features 
 
-- search any questions
-- add bookmarks
-- connect to the network
-- online app
+- Search any questions
+- Add bookmarks
+- Connect to the network
+- Online app
 - Refresh content
 - Direct home page icon
-- real time update
+- Real time update
 
 
 
 
 
-##Screenshots
+# Screenshots
 
 <img src="https://github.com/user-attachments/assets/f1a08b49-865f-4600-8438-4e0eaf035b65" alt="App Screenshot" width="200" height="400"/>
 <img src="https://github.com/user-attachments/assets/0bee2261-24d0-4278-8de5-253c34164783" alt="App Screenshot" width="200" height="400"/>
